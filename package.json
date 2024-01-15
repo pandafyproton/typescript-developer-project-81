@@ -27,9 +27,6 @@
     "test": "vitest",
     "test-coverage": "npx vitest run --coverage"
   },
-  "simple-git-hooks": {
-    "pre-push": "make lint"
-  },
   "devDependencies": {
     "@types/eslint": "^8.44.6",
     "@types/node": "^20.8.10",
@@ -47,7 +44,6 @@
     "npm-check-updates": "^16.14.6",
     "prettier": "3.2.2",
     "rimraf": "^5.0.5",
-    "simple-git-hooks": "^2.9.0",
     "ts-node": "^10.9.1",
     "tslib": "^2.6.2",
     "typescript": "^5.2.2",
