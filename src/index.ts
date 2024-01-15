@@ -1,3 +1,3 @@
 import Tag from './Tag';
 
-new Tag('div');
+export default Tag;
