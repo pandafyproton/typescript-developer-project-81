@@ -31,7 +31,7 @@ jobs:
               uses: paambaati/codeclimate-action@v5.0.0
               env:
                   CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
-                  coverageLocations: ${{github.workspace}}/coverage/clover.xml:clover
               with:
                   coverageCommand: npm run test-coverage
+                  coverageLocations: ${{ github.workspace }}/coverage/clover.xml:clover
                   debug: true
