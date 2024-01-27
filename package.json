@@ -12,7 +12,8 @@
     "url": "https://github.com/pandafyproton/typescript-developer-project-81/issues"
   },
   "homepage": "https://github.com/pandafyproton/typescript-developer-project-81#readme",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "start:dev": "npx nodemon",
@@ -23,6 +24,9 @@
     "test": "vitest",
     "test-coverage": "npx vitest run --coverage"
   },
+  "files": [
+    "dist"
+  ],
   "simple-git-hooks": {
     "pre-push": "make lint"
   },
