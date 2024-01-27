@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "Form builder package",
-  "author": "vladbndko",
+  "author": "pandafyproton",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
     "url": "https://github.com/pandafyproton/typescript-developer-project-81/issues"
   },
   "homepage": "https://github.com/pandafyproton/typescript-developer-project-81#readme",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "start:dev": "npx nodemon",
