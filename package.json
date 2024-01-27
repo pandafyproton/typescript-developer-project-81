@@ -4,7 +4,6 @@
   "description": "Form builder package",
   "author": "pandafyproton",
   "license": "ISC",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pandafyproton/typescript-developer-project-81.git"
