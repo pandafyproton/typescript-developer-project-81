@@ -6,17 +6,13 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hexlet-boilerplates/typescript-package.git"
+    "url": "git+https://github.com/pandafyproton/typescript-developer-project-81.git"
   },
   "bugs": {
     "url": "https://github.com/pandafyproton/typescript-developer-project-81/issues"
   },
   "homepage": "https://github.com/pandafyproton/typescript-developer-project-81#readme",
-  "main": "index.js",
-  "engines": {
-    "node": "18",
-    "npm": "9"
-  },
+  "main": "dist/index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "start:dev": "npx nodemon",

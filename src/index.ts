@@ -1,3 +1,3 @@
-import Tag from './Tag';
+import HexletCode from './HexletCode';
 
-export default Tag;
+export default HexletCode;
