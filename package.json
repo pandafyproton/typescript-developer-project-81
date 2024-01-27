@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/pandafyproton/typescript-developer-project-81#readme",
   "main": "dist/index.js",
-  "module": "dist/index.js",
+  "module": "src/index.ts",
   "types": "dist/index.d.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
@@ -31,6 +31,9 @@
   ],
   "simple-git-hooks": {
     "pre-push": "make lint"
+  },
+  "dependencies": {
+    "@hexlet/code": "file:./src"
   },
   "devDependencies": {
     "@types/eslint": "^8.44.6",
