@@ -15,7 +15,7 @@ describe('Forms', () => {
     const template = { name: 'rob', job: 'hexlet', gender: 'm' };
     const form = HexletCode.formFor(template, { method: 'post' }, (f) => {
       f.input('name');
-      f.input('job', { as: 'textarea', cols: 20, rows: 40 });
+      f.input('job', { as: 'textarea' });
       f.input('gender');
     });
     const fixture = await readFixture('form-02.html');

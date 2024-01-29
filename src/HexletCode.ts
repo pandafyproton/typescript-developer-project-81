@@ -42,6 +42,8 @@ export default class HexletCode {
       const tag = new Tag(
         tagName,
         {
+          cols: 20,
+          rows: 40,
           ...restOptions,
           name,
         },
