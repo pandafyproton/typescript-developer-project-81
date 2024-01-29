@@ -12,9 +12,9 @@
     "url": "https://github.com/pandafyproton/typescript-developer-project-81/issues"
   },
   "homepage": "https://github.com/pandafyproton/typescript-developer-project-81#readme",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.js",
+  "main": "dist/HexletCode.js",
+  "module": "dist/HexletCode.js",
+  "types": "dist/HexletCode.d.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "start:dev": "npx nodemon",
