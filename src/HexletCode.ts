@@ -23,8 +23,8 @@ export default class HexletCode {
     callback: (f: HexletCode) => void,
   ) {
     const attributes = {
-      action: rawAttributes.url ?? '#',
       method: rawAttributes.method ?? 'post',
+      action: rawAttributes.url ?? '#',
     };
     const form = new HexletCode(template, attributes);
     callback(form);
